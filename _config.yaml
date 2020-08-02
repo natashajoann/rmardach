@@ -1,0 +1,13 @@
+page_blocks: []
+_array_structures:
+  page_blocks:
+    - label: Banner
+      icon: ballot
+      value:
+        _id: banner
+        background_image:
+        block-class:
+        heading:
+        sub-heading:
+        link-text:
+        link_url: 

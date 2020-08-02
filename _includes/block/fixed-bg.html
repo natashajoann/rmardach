@@ -1,0 +1,15 @@
+<section class="banner grid-center padded {{block.block-class}}" style="background-image:url({{block.background_image}})">
+
+  {% include {{block._id}}.html block=block %}
+
+  <div class="col-6_sm-12-middle centered">
+    <h2> {{block.heading}} </h2>
+    <h3> {{block.sub-heading}} </h3>
+
+
+  {% unless block.link-text == nil %}
+    <a class="button" href="{{block.link_url}}"> {{block.link-text}} </a>
+  {% endunless %}
+
+  </div>
+</section>
