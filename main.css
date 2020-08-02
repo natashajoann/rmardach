@@ -51,7 +51,14 @@ a{
 }
 
 .title-quote{
-  text-align:left;
+  position:relative;
+}
+
+.title-quote h1{
+  text-align: right;
+  position: absolute;
+  bottom: 28%;
+  right: 0;
 }
 
 .title-img{
