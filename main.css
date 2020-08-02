@@ -19,6 +19,11 @@ a{
   text-align:center;
 }
 
+.space-around{
+  display: flex;
+  justify-content:space-around;
+}
+
 .primary-button{
   width:30%;
   padding:6px 10px;
@@ -31,6 +36,12 @@ a{
 
 .primary-button:hover{
   background-color: #F4F0F5;
+}
+
+/* navs */
+
+.main-nav{
+  padding:20px 2rem;
 }
 
 /* Title */
