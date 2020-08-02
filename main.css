@@ -1,0 +1,28 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* helper classes */
+
+.centered{
+  text-align:center;
+}
+
+.title{
+  padding:3rem;
+}
+
+.title-quote{
+  text-align:left;
+}
+
+.title-img{
+  background-image:url("/images/dna-purple.jpg");
+  background-position:center;
+  background-size:cover;
+  height:50vh;
+  width:80%;
+  margin:auto;
+}
