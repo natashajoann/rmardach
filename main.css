@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+}
+
 /* helper classes */
 
 .centered{
@@ -12,10 +17,12 @@
 
 .primary-button{
   width:30%;
+  padding:6px 10px;
   background-color:white;
   color:#1D1D1D;
   border-radius:4px;
   transition:0.8s;
+  margin:auto;
 }
 
 .primary-button:hover{
