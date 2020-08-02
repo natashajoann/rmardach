@@ -10,6 +10,20 @@
   text-align:center;
 }
 
+.primary-button{
+  width:30%;
+  background-color:white;
+  color:#1D1D1D;
+  border-radius:4px;
+  transition:0.8s;
+}
+
+.primary-button:hover{
+  background-color: #F4F0F5;
+}
+
+/* Title */
+
 .title{
   padding:3rem;
 }
@@ -25,4 +39,47 @@
   height:50vh;
   width:80%;
   margin:auto;
+}
+
+/* Services */
+
+.services{
+  padding:3rem;
+  background-color:#B9D5E8;
+}
+
+/* Fixed bg */
+.fixed-bg{
+  background-image:url("/images/dna-purple.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:10rem;
+  position:fixed;
+  z-index:-1;
+}
+
+.about{
+  padding:3rem;
+}
+
+.about p{
+  width:70%;
+  margin:auto;
+}
+
+/* Index blog */
+
+.blog-info{
+  padding:3rem;
+  background-position:#DAC8E2;
+}
+
+.blog-info h1{
+  margin:20px;
+}
+
+.blog-loop-background{
+  width:80%;
+  margin:auto;
+  margin-bottom:10px;
 }
