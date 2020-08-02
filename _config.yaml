@@ -10,4 +10,33 @@ _array_structures:
         heading:
         sub-heading:
         link-text:
-        link_url: 
+        link_url:
+    - label: CTA
+      icon: format_quote
+      value:
+        _id: cta
+        block-class:
+        heading:
+        description:
+        link-text:
+        link_url:
+    - label: Two Col
+      icon: format_quote
+      value:
+        _id: two-col
+        block-class:
+        col-1_html:
+        col-2_html:
+    - label: Flexible Cols
+      icon: format_quote
+      value:
+        _id: cols
+        block-class:
+        columns: []
+  columns:
+    label: Column
+    icon: collections
+    value:
+      size:
+      class:
+      column_html:
