@@ -1,0 +1,10 @@
+---
+layout: default
+title: Tester
+---
+
+{% for block in page.page_blocks %}
+
+  {% include blocks/{{block._id}}.html block=block %}
+
+{% endfor %}
