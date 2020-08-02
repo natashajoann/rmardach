@@ -9,6 +9,10 @@ a{
   color:black;
 }
 
+[class*=grid-], [class*=grid_], [class~=grid]{
+  margin:0;
+}
+
 /* helper classes */
 
 .centered{
