@@ -13,5 +13,6 @@ _array_structures:
         link_url:
     - label: fixed-bg
       icon: perm_media
-      background_image:
-      heading: 
+      value:
+        _id: fixed-bg
+        background_image:
