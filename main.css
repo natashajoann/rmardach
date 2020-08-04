@@ -128,6 +128,15 @@ a{
 
 /* Blocks */
 
+.editor-link{
+  border: 2px solid black;
+  padding:5px;
+}
+
+.editor-link:hover{
+  color:blue;
+}
+
 .fixed-bg{
   background-attachment:fixed;
   height:400px;
