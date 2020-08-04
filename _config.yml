@@ -16,3 +16,5 @@ _array_structures:
       value:
         _id: fixed-bg
         background_image:
+    - label: quote-img-left
+      icon: perm_media
