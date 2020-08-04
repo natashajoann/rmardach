@@ -11,3 +11,7 @@ _array_structures:
         sub-heading:
         link-text:
         link_url:
+    - label: fixed-bg
+      icon: perm_media
+      background_image:
+    

@@ -125,3 +125,10 @@ a{
   margin:auto;
   margin-bottom:10px;
 }
+
+/* Blocks */
+
+.fixed-bg{
+  background-attachment:fixed;
+  height:400px;
+}
