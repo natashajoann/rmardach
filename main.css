@@ -129,12 +129,14 @@ a{
 /* Blocks */
 
 .editor-link{
-  border: 2px solid black;
+  border: 2px solid blue;
   padding:5px;
+  background-color:white;
+  border-radius: 5px;
 }
 
 .editor-link:hover{
-  color:blue;
+  color:black;
 }
 
 .fixed-bg{
