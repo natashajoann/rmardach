@@ -41,3 +41,19 @@ _array_structures:
         second-description_html:
         second-link-url:
         second-link-text:
+    - label: three-col
+      icon: view_column
+      value:
+        _id: three-col
+        heading:
+        description_html:
+        link_url:
+        link-text:
+        second-heading:
+        second-description_html:
+        second-link_url:
+        second-link-text:
+        third-heading:
+        third-description_html:
+        third-link_url:
+        third-link-text:
