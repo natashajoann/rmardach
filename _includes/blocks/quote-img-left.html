@@ -1,12 +1,14 @@
-<section class="grid title about {{block.block-class}}">
+<section class="grid quote-img-right {{block.block-class}}">
 
   {% for block in page.page_blocks%}
 
-  <div class="col-6_sm-12 title-quote">
+  <div class="col-3"></div>
+
+  <div class="col-3_sm-12 title-quote">
     <h1> {{block.heading}} </h1>
   </div>
 
   <div class="col-6_sm-12 title-img-wrapper display-none">
-      <div class="title-img" style="background-image:url({{block.background_image}})"></div>
+      <div class="quote-img" style="background-image:url({{block.background_image}})"></div>
   </div>
 </section>

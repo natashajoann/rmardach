@@ -18,3 +18,7 @@ _array_structures:
         background_image:
     - label: quote-img-left
       icon: perm_media
+      value:
+        _id: quote-img-right:
+        background-image:
+        heading:

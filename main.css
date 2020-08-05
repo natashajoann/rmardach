@@ -134,3 +134,25 @@ a{
   background-attachment:fixed;
   height:400px;
 }
+
+.quote-img-right{
+  padding: 7.5rem 0 4rem;
+}
+
+
+.quote-img{
+  background-position:center;
+  background-size:cover;
+  margin-top: 0;
+  padding: 9rem;
+  width: 70%;
+  margin: auto;
+  height: 45vh;
+}
+
+
+@media(max-width:726px){
+  .quote-img-right{
+    padding:2rem;
+  }
+}
