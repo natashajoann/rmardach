@@ -20,5 +20,5 @@ _array_structures:
       icon: perm_media
       value:
         _id: quote-img-right
-        background-image:
+        background_image:
         heading:
