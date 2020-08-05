@@ -35,11 +35,11 @@ _array_structures:
         _id: two-col
         heading:
         description_html:
-        link-url:
+        link_url:
         link-text:
         second-heading:
         second-description_html:
-        second-link-url:
+        second-link_url:
         second-link-text:
     - label: three-col
       icon: view_column
