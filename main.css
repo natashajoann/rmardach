@@ -38,6 +38,20 @@ a{
   background-color: #F4F0F5;
 }
 
+.float-left{
+  float:left;
+  height:50%;
+  max-width:50%;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.float-right{
+  float:righ;
+  height:50%;
+  max-width:50%;
+  margin:1rem 0 1rem 1rem;
+}
+
 /* navs */
 
 .main-nav{
@@ -149,6 +163,9 @@ a{
   margin: auto;
   height: 45vh;
 }
+
+/* About page */
+
 
 
 @media(max-width:726px){
