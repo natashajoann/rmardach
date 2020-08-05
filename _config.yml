@@ -27,5 +27,17 @@ _array_structures:
       value:
         _id: recent-posts
         heading:
+        link_url:
         link-text:
-        link_url: 
+    -label: two-col
+      icon: vertical_split
+      value:
+        _id: two-col
+        heading:
+        description:
+        link-url:
+        link-text:
+        heading:
+        description:
+        link-url:
+        link-text:
