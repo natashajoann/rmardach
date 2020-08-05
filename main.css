@@ -38,14 +38,14 @@ a{
   background-color: #F4F0F5;
 }
 
-.float-left{
+.float-left img{
   float:left;
   height:50%;
   max-width:50%;
   margin: 1rem 1rem 1rem 0;
 }
 
-.float-right{
+.float-right img{
   float:righ;
   height:50%;
   max-width:50%;
