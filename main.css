@@ -40,16 +40,16 @@ a{
 
 .float-left img{
   float:left;
-  max-height:50%;
-  max-width:50%;
-  margin: 1rem 1rem 1rem 0;
+  max-height:35%;
+  max-width:35%;
+  margin: 1rem 2rem 2rem 0;
 }
 
 .float-right img{
   float:right;
-  max-height:50%;
-  max-width:50%;
-  margin:1rem 0 1rem 1rem;
+  max-height:35%;
+  max-width:35%;
+  margin:1rem 0 2rem 2rem;
 }
 
 /* navs */
