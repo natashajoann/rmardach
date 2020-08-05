@@ -34,10 +34,10 @@ _array_structures:
       value:
         _id: two-col
         heading:
-        description:
+        description_html:
         link-url:
         link-text:
         second-heading:
-        second-description:
+        second-description_html:
         second-link-url:
         second-link-text:
