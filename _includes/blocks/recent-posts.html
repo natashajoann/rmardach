@@ -1,0 +1,19 @@
+<section class="grid recent-posts {{block.block-class}} centered">
+
+  <h1>{{block.heading}}</h1>
+
+  {% for post in site.posts limit:3 %}
+  <div class="col-4_sm-12 post-preview">
+    <div class="blog-loop-background index-blog-img" style="background-image:url({{post.featured_image}})">
+    </div>
+    <div class="blog-loop-info centered">
+      <h3> {{post.title}}</h3>
+      <br>
+      <a href="{{post.url}}" class="button-spread"><span> Read More</span> </a>
+    </div>
+  </div>
+{% endfor %}
+
+<a href="/blog" class="primary-button"> See All Posts </a>
+
+</section>
