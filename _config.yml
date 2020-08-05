@@ -22,3 +22,10 @@ _array_structures:
         _id: quote-img-right
         background_image:
         heading:
+    - label: recent-posts
+      icon: ballot
+      value:
+        _id: recent-posts
+        heading:
+        link-text:
+        link_url: 
