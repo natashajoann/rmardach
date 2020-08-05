@@ -29,7 +29,7 @@ _array_structures:
         heading:
         link_url:
         link-text:
-    -label: two-col
+    - label: two-col
       icon: vertical_split
       value:
         _id: two-col
