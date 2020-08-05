@@ -1,72 +1,14 @@
 ---
 layout: default
 title: Home Page
+page_blocks:
 ---
 
-<section class="grid title">
+{% for block in page.page_blocks %}
 
-  <div class="col-6_sm-12 title-quote">
-    <h1> TITLE </h1>
-  </div>
+  {% include blocks/{{block._id}}.html block=block %}
 
-  <div class="col-6_sm-12 title-img-wrapper display-none">
-      <div class="title-img"></div>
-  </div>
-</section>
-
-<section class="grid services centered">
-  <div class="col-4_sm-12">
-    <h2> Service Title </h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
-    <a href="/services"> read more </a>
-  </div>
-
-  <div class="col-4_sm-12">
-    <h2> Service Title </h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
-    <a href="/services"> read more </a>
-  </div>
-
-  <div class="col-4_sm-12">
-    <h2> Service Title </h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-
-    <a href="/services"> read more </a>
-  </div>
-
-</section>
-
-<div class="fixed-bg-dark"></div>
-
-<section class="about centered">
-  <h1> Hi I'm Dr. Mardach! </h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</section>
-
-<section class="blog-info centered">
-  <h1> Recently Posted </h1>
-
-  <div class="blog-loop grid">
-
-    {% for post in site.posts limit:3%}
-
-    <div class="col-4_sm-12 post-preview">
-      <div class="blog-loop-background" style="background-image:url({{post.featured_image}})">
-      </div>
-
-      <div class="blog-loop-info centered">
-        <h3> {{post.title}}</h3>
-        <p> {{post.description}}</p>
-        <br>
-        <a href="{{post.url}}"> Read More </a>
-      </div>
-
-    {% endfor %}
-
-    <a href="/blog" class="primary-button"> See All Posts </a>
-</section>
+{% endfor %}
 
 
 
