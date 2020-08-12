@@ -2,6 +2,7 @@
 layout: posts
 title: Tester Title
 description:
+permalink: 
 featured_image:
 author: Rebecca Mardach
 date: 2001-08-12 00:00:00
