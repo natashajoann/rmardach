@@ -174,7 +174,19 @@ a{
 /* Blog Page */
 
 
+/* Footer */
 
+footer{
+  padding:3rem;
+  background-color:#F4F0F5;
+}
+
+.footer-img{
+  background-image: url("/images/dna-purple.jpg");
+  background-position:center;
+  background-size:cover;
+  padding:6rem;
+}
 
 @media(max-width:726px){
   .quote-img-right{
