@@ -117,6 +117,8 @@ a{
 
 .fixed-bg{
   position:relative;
+  background-position:center;
+  background-size:cover;
 }
 
 .bk-overlay{
