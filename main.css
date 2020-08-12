@@ -71,8 +71,9 @@ a{
 .title-quote h1{
   text-align: right;
   position: absolute;
-  bottom: 28%;
+  bottom: 15%;
   right: 0;
+  font-size:48px;
 }
 
 .title-img{
@@ -160,9 +161,9 @@ a{
   background-size:cover;
   margin-top: 0;
   padding: 9rem;
-  width: 70%;
+  width: 77%;
   margin: auto;
-  height: 45vh;
+  height: 50vh;
 }
 
 .two-col{
