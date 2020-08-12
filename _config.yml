@@ -21,7 +21,7 @@ _array_structures:
       value:
         _id: quote-img-right
         background_image:
-        heading_html:
+        title_html:
     - label: recent-posts
       icon: ballot
       value:
@@ -63,4 +63,4 @@ _array_structures:
       value:
         _id: text
         heading:
-        description_html: 
+        description_html:
