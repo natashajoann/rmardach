@@ -115,6 +115,10 @@ a{
   max-height: 400px;
 }
 
+.fixed-bg{
+  position:relative;
+}
+
 .bk-overlay{
   position:absolute;
   height:100%;
