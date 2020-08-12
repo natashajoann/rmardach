@@ -16,7 +16,7 @@ _array_structures:
       value:
         _id: fixed-bg
         background_image:
-    - label: quote-img-left
+    - label: quote-img-right
       icon: perm_media
       value:
         _id: quote-img-right
@@ -33,7 +33,7 @@ _array_structures:
       icon: vertical_split
       value:
         _id: two-col
-        background-color: 
+        background-color:
         heading:
         description_html:
         link_url:
