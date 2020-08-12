@@ -21,7 +21,7 @@ _array_structures:
       value:
         _id: quote-img-right
         background_image:
-        heading: 
+        heading:
     - label: recent-posts
       icon: ballot
       value:
@@ -58,9 +58,9 @@ _array_structures:
         third-description_html:
         third-link_url:
         third-link-text:
-    - label: text
+    - label: text-block
       icon: library_books
       value:
-        _id: text
+        _id: text-block
         heading:
         description_html:

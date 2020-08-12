@@ -165,6 +165,17 @@ a{
   height: 45vh;
 }
 
+.two-col{
+  padding:3rem 3rem 2rem;
+  background-color: #B9D5E8;
+}
+
+.two-col h1{
+  font-size:150px;
+  line-height:115px;
+  color:#9FC2DB;
+}
+
 /* About page */
 
 .bio{
