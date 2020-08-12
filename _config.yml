@@ -33,6 +33,7 @@ _array_structures:
       icon: vertical_split
       value:
         _id: two-col
+        background-color: 
         heading:
         description_html:
         link_url:
