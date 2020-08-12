@@ -1,7 +1,11 @@
 <section  class="text {{block.block-class}} centered">
 
-<h1> {{block.heading}}</h1>
+  {% if block.heading == true %}
+  <h1>{{block.heading}}</h1>
 
-<p> {{block.description_html}}</p>
+  <br><br>
+  {% endif %}
+
+  <p> {{block.description}}</p>
 
 </section>

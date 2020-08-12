@@ -58,9 +58,9 @@ _array_structures:
         third-description_html:
         third-link_url:
         third-link-text:
-    - label: text-block
+    - label: text
       icon: library_books
       value:
-        _id: text-block
+        _id: text
         heading:
         description_html:
