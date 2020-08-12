@@ -101,7 +101,7 @@ a{
   background-attachment: fixed;
   z-index:-1;
   min-height: 50vh;
-  max-height: 400px;
+  max-height: 300px;
 }
 
 .fixed-bg-light{
@@ -289,6 +289,16 @@ a{
   background-position:center;
   background-size:cover;
   padding:6rem;
+}
+
+/* Contact --footer */
+
+.subscription-box input{
+  width: 70%;
+  margin: 5px;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #ffffff00;
 }
 
 @media(max-width:726px){
