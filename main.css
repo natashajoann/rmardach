@@ -222,7 +222,7 @@ a{
 /* services */
 
 .services-pg{
-  padding:3rem;
+  padding:1rem 3rem;
 }
 
 .services-info{
@@ -231,6 +231,7 @@ a{
 
 .services-info h2{
   text-align: center;
+  margin-bottom:20px;
 }
 
 .services-bk{
