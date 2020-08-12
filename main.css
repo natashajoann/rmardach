@@ -176,6 +176,25 @@ a{
   color:#9FC2DB;
 }
 
+.text-block{
+  padding:3rem;
+}
+
+
+.text-block p{
+  width:70%;
+  margin:auto;
+}
+
+.recent-posts{
+  padding:3rem;
+  background-color:#DAC8E2;
+}
+
+.recent-posts{
+  padding-bottom:20px;
+}
+
 /* About page */
 
 .bio{
