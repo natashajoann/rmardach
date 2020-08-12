@@ -115,6 +115,18 @@ a{
   max-height: 400px;
 }
 
+.bk-overlay{
+  position:absolute;
+  height:100%;
+  width:100%;
+  padding:5%;
+  text-align:center;
+  background-color:#F9E2FF;
+  color:black;
+  top:0;
+  left:0;
+}
+
 .about{
   padding:3rem;
 }
@@ -140,6 +152,14 @@ a{
   margin:auto;
   margin-bottom:10px;
   padding:6rem;
+}
+
+.see-more{
+  padding-top:20px;
+}
+
+.blog-loop-info{
+  padding-top:15px;
 }
 
 /* Blocks */
@@ -178,7 +198,7 @@ a{
 }
 
 .text{
-  padding:3rem;
+  padding:6rem 3rem;
 }
 
 
