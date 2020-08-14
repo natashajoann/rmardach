@@ -159,6 +159,8 @@ a{
   margin:auto;
   margin-bottom:10px;
   padding:6rem;
+  background-position: center;
+  background-size: cover;
 }
 
 .see-more{
@@ -219,9 +221,6 @@ a{
   background-color:#DAC8E2;
 }
 
-.recent-posts{
-  padding-bottom:20px;
-}
 
 /* About page */
 
@@ -307,7 +306,7 @@ a{
 /* Footer */
 
 .footer-info{
-  padding:3rem;
+  padding:5rem 0;
   background-color:#F4F0F5;
 }
 
@@ -322,10 +321,14 @@ a{
 
 .subscription-box input{
   width: 70%;
-  margin: 5px;
+  margin: 15px 0;
   border: none;
   border-bottom: 2px solid black;
   background-color: #ffffff00;
+}
+
+.subscription-box h2{
+  margin-bottom:20px;
 }
 
 @media(max-width:726px){
