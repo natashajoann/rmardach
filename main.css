@@ -184,7 +184,7 @@ a{
 }
 
 .primary-post{
-  background:linear-gradient(white 17%,#B9D5E8 0,#B9D5E8 60%,#B9D5E8 100%);
+  background:linear-gradient(white 17%,#b9d5e8 0,#b9d5e8 60%,#b9d5e8 82%, white 17%);
   margin-bottom:-2px;
   padding:2rem 0;
 }
@@ -206,7 +206,7 @@ a{
 }
 
 .allposts{
-  padding:5rem;
+  padding:3rem;
 }
 
 
