@@ -13,6 +13,10 @@ a{
   margin:0;
 }
 
+[class*=col-], [class*=col_], [class~=col]{
+  padding:0;
+}
+
 /* helper classes */
 
 .centered{
@@ -174,6 +178,20 @@ a{
 }
 
 /* Blocks */
+
+.blog{
+  padding: 4rem 0;
+}
+
+.primary-post{
+  background:linear-gradient(white 17%,#B9D5E8 0,#B9D5E8 60%,#B9D5E8 100%);
+  margin-bottom:-2px;
+  padding:2rem 0;
+}
+
+.allposts{
+  padding:3rem;
+}
 
 
 
