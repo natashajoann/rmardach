@@ -190,11 +190,23 @@ a{
 }
 
 .primary-info{
-  padding:2rem;
+  margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.primary-img{
+  margin:auto;
+}
+
+.primary-img img{
+  width: 80%;
+    margin: auto;
+    display: flex;
 }
 
 .allposts{
-  padding:3rem;
+  padding:5rem;
 }
 
 
