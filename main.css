@@ -127,10 +127,11 @@ a{
   width:100%;
   padding:5%;
   text-align:center;
-  background-color:#cdcdcd91;
+  background-color:#a5a7d791;
   color:black;
   top:0;
   left:0;
+  display: flex;
 }
 
 .about{
