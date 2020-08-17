@@ -19,9 +19,7 @@ a{
 
 /* Fonts */
 
-a:hover{
-  color:#DAC8E2;
-}
+
 
 h1{
   font-family: museo-sans, sans-serif;
@@ -92,15 +90,13 @@ a, p{
 .button-filled{
   padding:5px;
   width:40%;
-  color:white;
-  background-color:#B9D5E8;
+  background-color:#8eaec4;
   border-radius:5px;
   transition:0.4s;
 }
 
 .button-filled:hover{
   background-color:#D3E7F5;
-  color:white;
 }
 
 .button-filled-secondary{
@@ -308,6 +304,11 @@ a, p{
   color:#9FC2DB;
   font-family: "Times New Roman", Times, serif;
   padding: 0 5px;
+}
+
+.two-col p{
+  width: 80%;
+  margin: auto;
 }
 
 
