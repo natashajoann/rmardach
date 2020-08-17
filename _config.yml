@@ -15,7 +15,7 @@ _array_structures:
       icon: perm_media
       value:
         _id: fixed-bg
-        background_image: 
+        background_image:
         title:
     - label: quote-img-right
       icon: perm_media
@@ -65,3 +65,5 @@ _array_structures:
         _id: text
         heading:
         description_html:
+        link-name: 
+        link-url:
