@@ -237,6 +237,10 @@ a, p{
   background-size: cover;
 }
 
+.recent-posts h1{
+  padding-bottom:3rem;
+}
+
 .see-more{
   margin-top:4rem;
 }
