@@ -25,13 +25,15 @@ a:hover{
 
 h1{
   font-family: museo-sans, sans-serif;
-  font-weight:300;
+  font-weight:700;
 }
 
 h2{
   font-family: museo-sans, sans-serif;
-  font-weight:500;
+  font-weight:900;
   font-size:16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 h3{
@@ -43,6 +45,7 @@ h3{
 a, p{
   font-family: museo-sans, sans-serif;
   font-weight:100;
+  font-size: 15px;
 }
 
 /* helper classes */
@@ -303,7 +306,10 @@ a, p{
   font-size:150px;
   line-height:115px;
   color:#9FC2DB;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0 5px;
 }
+
 
 .text{
   padding:6rem 3rem;
