@@ -19,6 +19,10 @@ a{
 
 /* Fonts */
 
+a:hover{
+  color:#DAC8E2;
+}
+
 h1{
   font-family: museo-sans, sans-serif;
   font-weight:300;
@@ -80,6 +84,41 @@ a, p{
   max-height:35%;
   max-width:35%;
   margin:1rem 0 2rem 2rem;
+}
+
+.button-filled{
+  padding:5px;
+  width:40%;
+  color:white;
+  background-color:#B9D5E8;
+  border-radius:5px;
+  transition:0.4s;
+}
+
+.button-filled:hover{
+  background-color:#D3E7F5;
+  color:white;
+}
+
+.button-filled-secondary{
+  padding:5px;
+  width:40%;
+  background-color:#F4F0F5;
+  border-radius:5px;
+  transition:0.4s;
+}
+
+.button-filled-secondary:hover{
+  background-color:#E9DEEB;
+  color:white;
+}
+
+.button-expand{
+  transition:0.5s;
+}
+
+.button-expand:hover{
+  letter-spacing: 5px;
 }
 
 /* navs */
