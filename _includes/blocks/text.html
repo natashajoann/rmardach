@@ -8,6 +8,8 @@
 
   <br><br>
 
-  <a href="{{block.link-url}}" class="button-filled"> {{block.link-name}}</a>
+  {% unless block.link-text == nil %}
+    <a class="button-filled" href="{{block.link_url}}"> {{block.link-text}} </a>
+  {% endunless %}
 
 </section>

@@ -16,7 +16,7 @@ _array_structures:
       value:
         _id: fixed-bg
         background_image:
-        title:
+        heading:
     - label: quote-img-right
       icon: perm_media
       value:
@@ -65,5 +65,5 @@ _array_structures:
         _id: text
         heading:
         description_html:
-        link-url:
-        link-name:
+        link_url:
+        link-text:
