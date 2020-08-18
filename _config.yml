@@ -17,6 +17,12 @@ _array_structures:
         heading:
         link-text:
         link_url:
+    - label: Fixed Background
+      icon: perm_media
+      value:
+        _id: fixed-bg
+        background_image:
+        heading:
     - label: Quote With Image (Right)
       icon: perm_media
       value:
