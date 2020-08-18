@@ -11,7 +11,10 @@
     <p>{{block.description_html}}</p>
 
     <br><br>
-    <a href="{{block.link_url}}" class="{{block.block-class}} button-filled">{{block.link-text}}</a>
+    {% unless block.link-text == nil %}
+      <a href="{{block.third-link_url}}" class="{{block.block-class}} button-filled">{{block.third-link-text}}</a>
+
+    {% endunless %}
   </div>
 
 
@@ -23,7 +26,10 @@
     <p>{{block.second-description_html}}</p>
 
     <br><br>
-    <a href="{{block.second-link_url}}" class="{{block.block-class}} button-filled">{{block.second-link-text}}</a>
+    {% unless block.link-text == nil %}
+      <a href="{{block.third-link_url}}" class="{{block.block-class}} button-filled">{{block.third-link-text}}</a>
+
+    {% endunless %}
   </div>
 
   <div class="col-4_sm-12 centered .three-col-text">
@@ -34,7 +40,11 @@
     <p>{{block.third-description_html}}</p>
 
     <br><br>
-    <a href="{{block.third-link_url}}" class="{{block.block-class}} button-filled">{{block.third-link-text}}</a>
+
+    {% unless block.link-text == nil %}
+      <a href="{{block.third-link_url}}" class="{{block.block-class}} button-filled">{{block.third-link-text}}</a>
+
+    {% endunless %}
   </div>
 
 </section>
