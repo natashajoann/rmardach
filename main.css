@@ -323,12 +323,17 @@ a, p{
   background-color: #B9D5E8;
 }
 
-.two-col h1, .three-col h1{
+.two-col h1{
   font-size:130px;
   line-height:115px;
   color:#9FC2DB;
   font-family: "Times New Roman", Times, serif;
   padding: 0 5px;
+}
+
+.three-col h2{
+  width:90%;
+  margin:auto;
 }
 
 .two-col-text p, .three-col p{
