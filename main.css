@@ -586,6 +586,12 @@ background-color: rgba(255,255,255,0.89);
 .burger-menu a{
 font-size:30px;
 white-space: normal;
+border-bottom:2px solid #B9D5E8;
+}
+
+.burger-menu a:hover{
+  color: #B7B9C1;
+  border-bottom: 2px solid #B7B9C1;
 }
 
 .burger-menu{
