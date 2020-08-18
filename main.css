@@ -561,6 +561,11 @@ a, p{
 }
 
 @media (max-width:900px){
+
+  .main-nav{
+    display:none;
+  }
+
   .mobil-menu{
   display:block;
 }
@@ -651,10 +656,10 @@ transform: rotateZ(-45deg);
 
 .burger-menu {
   display: none;
-  width:100%;
+  width:80%;
   position: fixed;
   top: 0;
-  right: 0;
+  right: -120%;
   background-color:rgba(250, 250, 250, 0.9);
   z-index: 8;
   padding-top:26px;
