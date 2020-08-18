@@ -375,6 +375,12 @@ a, p{
 }
 
 /* Accordion */
+
+.accordion-button h3{
+  border-bottom: 3px solid black;
+    padding-top: 14px;
+}
+
 .accordion {
   background-color: #fff;
   cursor: pointer;
@@ -394,6 +400,7 @@ a, p{
 .accordion h2{
   padding-bottom:10px;
 }
+
 
 .active, .accordion:hover {
   color: #DAC8E2;
