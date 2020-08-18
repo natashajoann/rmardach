@@ -505,6 +505,7 @@ a, p{
 .contact-form{
   background-color:#E7EBEF;
   padding:2rem 4rem;
+  margin:auto;
 }
 
 .contact-form input{
@@ -512,17 +513,31 @@ a, p{
   width:80%;
   margin:auto;
   margin-bottom:7px;
+  font-family: museo-sans, sans-serif;
+  font-weight:100;
+  font-size: 15px;
 }
 
 .contact-form textarea{
   padding: 5px 5px 5rem;
+    width: 80%;
+    margin-bottom: 7px;
+  resize:none;
+  font-family: museo-sans, sans-serif;
+  font-weight:100;
+  font-size: 15px;
 }
 
 .contact-button{
-  width:80%;
+  width:60%;
+  margin:auto;
   background-color:#FFFFFF;
   border:none;
   transition: 0.3s;
+  font-family: museo-sans, sans-serif;
+  font-weight:700;
+  font-size: 15px;
+  text-transform:uppercase;
 }
 
 .contact-button:hover{
