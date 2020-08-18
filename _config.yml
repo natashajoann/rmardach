@@ -1,36 +1,48 @@
 page_blocks: []
 _array_structures:
   page_blocks:
+    - label: Text
+      icon: library_books
+      value:
+        _id: text
+        heading:
+        link_url:
+        link-text:
+        description_html:
     - label: Banner
       icon: ballot
       value:
         _id: banner
         background_image:
-        block-class:
         heading:
-        sub-heading:
         link-text:
         link_url:
-    - label: fixed-bg
+    - label: Fixed Background
       icon: perm_media
       value:
         _id: fixed-bg
         background_image:
         heading:
-    - label: quote-img-right
+    - label: Quote With Image (Right)
       icon: perm_media
       value:
         _id: quote-img-right
         background_image:
         heading:
-    - label: recent-posts
+    - label: Quote With Image (Left)
+      icon: perm_media
+      value:
+        _id: quote-img-left
+        background_image:
+        heading:
+    - label: Recent Blog Posts
       icon: ballot
       value:
         _id: recent-posts
         heading:
         link_url:
         link-text:
-    - label: two-col
+    - label: Two Columns
       icon: vertical_split
       value:
         _id: two-col
@@ -43,10 +55,11 @@ _array_structures:
         second-description_html:
         second-link_url:
         second-link-text:
-    - label: three-col
+    - label: Three Columns
       icon: view_column
       value:
         _id: three-col
+        background-color:
         heading:
         description_html:
         link_url:
@@ -59,17 +72,3 @@ _array_structures:
         third-description_html:
         third-link_url:
         third-link-text:
-    - label: text
-      icon: library_books
-      value:
-        _id: text
-        heading:
-        link_url:
-        link-text: 
-        description_html:
-    - label: quote-img-left
-      icon: perm_media
-      value:
-        _id: quote-img-left
-        background_image:
-        heading:
