@@ -1,4 +1,4 @@
-<section  class="text {{block.block-class}} centered">
+<section class="text {{block.block-class}} centered">
 
   <h1>{{block.heading}}</h1>
 
@@ -8,7 +8,9 @@
 
   <br><br>
 
-  <a href="{{block.link_url}}" class="{{block.block-class}} button-filled">{{block.link-text}}</a>
+  {% unless block.link-text == nil %}
+    <a class="button-filled" href="{{block.link_url}}"> {{block.link-text}} </a>
+  {% endunless %}
 
 
 </section>

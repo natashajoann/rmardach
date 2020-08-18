@@ -5,10 +5,11 @@ _array_structures:
       icon: library_books
       value:
         _id: text
+        block-class: 
         heading:
+        description_html:
         link_url:
         link-text:
-        description_html:
     - label: Banner
       icon: ballot
       value:
@@ -21,6 +22,7 @@ _array_structures:
       icon: perm_media
       value:
         _id: fixed-bg
+        block-class:
         background_image:
         heading:
     - label: Quote With Image (Right)
@@ -46,6 +48,7 @@ _array_structures:
       icon: vertical_split
       value:
         _id: two-col
+        block-class:
         background-color:
         heading:
         description_html:
@@ -59,6 +62,7 @@ _array_structures:
       icon: view_column
       value:
         _id: three-col
+        block-class:
         background-color:
         heading:
         description_html:
