@@ -519,7 +519,7 @@ a, p{
 .contact-form{
   background-color:#E7EBEF;
   padding:2rem 4rem;
-  margin:auto;
+  text-align:center;
 }
 
 .contact-form input{
