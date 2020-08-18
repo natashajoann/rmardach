@@ -67,3 +67,9 @@ _array_structures:
         description_html:
         link_url:
         link-text:
+    - label: quote-img-left
+      icon: perm_media
+      value:
+        _id: quote-img-left
+        background_image:
+        heading:
