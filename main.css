@@ -496,6 +496,39 @@ a, p{
   margin-bottom:20px;
 }
 
+/* Contact Page */
+
+.contact{
+  padding:4rem;
+}
+
+.contact-form{
+  background-color:#E7EBEF;
+  padding:2rem 4rem;
+}
+
+.contact-form input{
+  padding: 5px;
+  width:80%;
+  margin:auto;
+  margin-bottom:7px;
+}
+
+.contact-form textarea{
+  padding: 5px 5px 5rem;
+}
+
+.contact-button{
+  width:80%;
+  background-color:#FFFFFF;
+  border:none;
+  transition: 0.3s;
+}
+
+.contact-button:hover{
+  background-color:#F4F0F5;
+}
+
 @media (max-width:900px){
   .mobil-menu{
   display:block;
