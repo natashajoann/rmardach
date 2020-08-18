@@ -336,7 +336,7 @@ a, p{
   margin: auto;
 }
 
-.three-col vl{
+.vl{
   border-left:1px solid black;
 }
 
@@ -471,7 +471,7 @@ a, p{
     padding:2rem;
   }
 
-  .three-col vl{
+  .vl{
     display: none;
   }
 }
