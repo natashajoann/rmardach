@@ -64,9 +64,9 @@ _array_structures:
       value:
         _id: text
         heading:
-        description_html:
         link_url:
-        link-text:
+        link-text: 
+        description_html:
     - label: quote-img-left
       icon: perm_media
       value:
