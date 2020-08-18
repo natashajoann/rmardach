@@ -12,6 +12,10 @@ $( document ).ready(function() {
        $(".burger-menu").slideToggle();
      });
 
+     $(".burger-menu").click(function(){
+       $(".burger-menu").toggleClass("active");
+     });
+     
    var acc = document.getElementsByClassName("accordion");
      var i;
 
