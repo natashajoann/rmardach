@@ -572,17 +572,6 @@ a, p{
 }
 
 
-.burger-menu{
-right:-120%;
-width:100%;
-background-color: rgba(255,255,255,0.89);
-height: 103vh;
-background-color: rgba(255,255,255,0.89);
-}
-
-.burger-menu.activate{
-  right:0;
-}
 
 .burger-menu a{
 font-size:30px;
@@ -658,6 +647,7 @@ transform: rotateZ(-45deg);
 }
 
 
+
 .burger-menu {
   display: none;
   width:80%;
@@ -667,6 +657,10 @@ transform: rotateZ(-45deg);
   background-color:rgba(250, 250, 250, 0.9);
   z-index: 8;
   padding-top:26px;
+}
+
+.burger-menu.activate{
+  right:0 !important;
 }
 
 .burger-menu a {
