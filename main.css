@@ -292,6 +292,10 @@ a, p{
   padding: 9.5rem 0 6rem;
 }
 
+.quote-img-left{
+  text-align:left;
+}
+
 
 .quote-img{
   background-position:center;
