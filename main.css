@@ -136,7 +136,7 @@ a, p{
 
 .main-nav{
   padding:20px 2rem;
-  display:block;
+  display:flex;
 }
 
 /* Title */
