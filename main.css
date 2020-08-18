@@ -393,9 +393,10 @@ a, p{
 
 /* Accordion */
 
-.accordion-button h3{
+.accordion-button h1{
   border-bottom: 3px solid black;
     padding-top: 14px;
+    text-align: center;
 }
 
 .accordion {
