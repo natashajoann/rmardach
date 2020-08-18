@@ -225,6 +225,11 @@ a, p{
   display: flex;
 }
 
+.bk-overlay h2{
+  margin:auto;
+  font-size:30px;
+}
+
 .about{
   padding:3rem;
 }
