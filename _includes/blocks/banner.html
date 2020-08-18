@@ -1,14 +1,16 @@
 <section class="banner grid-center {{block.block-class}}" style="background-image:url({{block.background_image}})">
 
 
-  <div class="col-6-middle centered bk-overlay">
+  <div class="col-12 centered bk-overlay">
     <h2> {{block.heading}} </h2>
     <h3> {{block.sub-heading}} </h3>
 
+  </div>
+
     {% unless block.link-text == nil %}
-      <a class="button" href="{{block.link_url}}"> {{block.link-text}} </a>
+      <a class="button col-12 centered" href="{{block.link_url}}"> {{block.link-text}} </a>
     {% endunless %}
 
-  </div>
+
 
 </section>
