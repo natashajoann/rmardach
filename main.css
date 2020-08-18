@@ -570,9 +570,6 @@ a, p{
   display:block;
 }
 
-.burger-button {
-right:2vh;
-}
 
 .burger-menu{
 right:-120%;
@@ -601,8 +598,8 @@ white-space: normal;
 
 .burger-button{
   position:fixed;
-  top:4vh;
-  right:0vh;
+  top: 2vh;
+  right: 2vh;
   z-index:9;
   padding:8px;
 }
