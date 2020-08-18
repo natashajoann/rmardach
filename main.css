@@ -288,7 +288,7 @@ a, p{
   height:400px;
 }
 
-.quote-img-right{
+.quote-img-right, .quote-img-left{
   padding: 9.5rem 0 6rem;
 }
 
@@ -303,12 +303,12 @@ a, p{
   height: 50vh;
 }
 
-.two-col{
+.two-col, .three-col{
   padding:5rem 4rem;
   background-color: #B9D5E8;
 }
 
-.two-col h1{
+.two-col h1, .three-col h1{
   font-size:130px;
   line-height:115px;
   color:#9FC2DB;
@@ -316,7 +316,7 @@ a, p{
   padding: 0 5px;
 }
 
-.two-col-text p{
+.two-col-text p, .three-col p{
   width: 80%;
   margin: auto;
 }
