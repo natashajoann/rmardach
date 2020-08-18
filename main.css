@@ -290,7 +290,7 @@ a, p{
 }
 
 .primary-post{
-  background:linear-gradient(white 17%,#b9d5e8 0,#b9d5e8 60%,#b9d5e8 82%, white 17%);
+  background:linear-gradient(white 5%,#b9d5e8 0,#b9d5e8 60%,#b9d5e8 82%, white 5%);
   margin-bottom:-2px;
   padding:2rem 0;
 }
@@ -306,9 +306,10 @@ a, p{
 }
 
 .primary-img img{
-  width: 80%;
-    margin: auto;
-    display: flex;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  min-height:40vh;
 }
 
 .allposts{
@@ -529,6 +530,7 @@ a, p{
   font-family: museo-sans, sans-serif;
   font-weight:100;
   font-size: 15px;
+  border:none;
 }
 
 .contact-form textarea{
@@ -539,6 +541,7 @@ a, p{
   font-family: museo-sans, sans-serif;
   font-weight:100;
   font-size: 15px;
+  border:none;
 }
 
 .contact-button{
