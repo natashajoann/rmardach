@@ -195,6 +195,17 @@ a, p{
   background-size:cover;
 }
 
+.banner{
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  padding:10rem;
+  background-attachment: fixed;
+  z-index:-1;
+  min-height: 50vh;
+  max-height: 400px;
+}
+
 .bk-overlay{
   position:absolute;
   height:100%;
