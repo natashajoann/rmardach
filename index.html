@@ -28,6 +28,13 @@ page_blocks:
     third-link-text: Ver Mas
   - _id: fixed-bg
     background_image: /uploads/lightdna-1.jpg
+  - _id: banner
+    background_image: /uploads/lightdna-2.jpg
+    block-class:
+    heading: Testing  Here
+    sub-heading:
+    link-text: Ver Mas
+    link_url: google.com
   - _id: text
     heading: 'Rebecca Mardach, M.D. es...'
     description_html: >-
@@ -44,13 +51,6 @@ page_blocks:
     heading: Recent Posts
     link_url: google.com
     link-text: See All Posts
-  - _id: banner
-    background_image: /uploads/lightdna-2.jpg
-    block-class:
-    heading: Testing  Here
-    sub-heading:
-    link-text: Ver Mas
-    link_url: google.com
 ---
 
 {% for block in page.page_blocks %}
