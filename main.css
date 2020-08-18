@@ -126,6 +126,27 @@ a, p{
   letter-spacing: 5px;
 }
 
+.burger-menu{
+  display:none;
+}
+
+.burger-button {
+right:2vh;
+}
+
+.burger-menu{
+right:0;
+width:100%;
+background-color: rgba(255,255,255,0.89);
+height: 103vh;
+background-color: rgba(255,255,255,0.89);
+}
+
+.burger-menu a{
+font-size:30px;
+white-space: normal;
+}
+
 /* navs */
 
 .main-nav{
@@ -476,6 +497,100 @@ a, p{
 
 .subscription-box h2{
   margin-bottom:20px;
+}
+
+@media (max-width:900px){
+  .mobil-menu{
+  display:block;
+}
+
+.burger-menu{
+  display:block;
+}
+
+.nav-menu{
+  display:none;
+}
+
+.burger-button{
+  position:fixed;
+  top:4vh;
+  right:0vh;
+  z-index:9;
+  padding:8px;
+}
+
+.burger-button span{
+  width:30px;
+  border: 2px solid #e3b053;
+  background-color:#e3b053;
+  display: block;
+  border-radius:22px;
+  transition: 1s;
+}
+
+.burger-button.active span{
+  background-color:#e3b053;
+}
+
+.burger-top, .burger-bottom{
+  position:absolute;
+}
+
+.burger-top{
+  top:02px;
+}
+
+.burger-bottom{
+  bottom:2px;
+}
+
+.burger-button.active .burger-middle{
+/*   transform: rotateZ(270deg); */
+border-color: rgba(0,0,0,0);
+background-color:rgba(0,0,0,0);
+}
+
+/* make sure this has the same bottom as the burger button has padding*/
+
+/* make sure this has the same top as the burger button has padding*/
+.burger-button.active .burger-top{
+position: absolute;
+top: 8px;
+transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-bottom{
+position: absolute;
+bottom: 8px;
+transform: rotateZ(-45deg);
+}
+
+
+.burger-menu {
+  display: none;
+  width:100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color:rgba(250, 250, 250, 0.9);
+  z-index: 8;
+  padding-top:26px;
+}
+
+.burger-menu a {
+text-decoration: none;
+font-size: 20px;
+font-weight: 300;
+color: #7a7876;
+display:block;
+padding:1rem 2rem;
+text-align: center;
+white-space:nowrap;
+}
+
+.burger-menu li{list-style:none}
+
 }
 
 @media(max-width:726px){
