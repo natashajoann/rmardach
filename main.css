@@ -321,6 +321,10 @@ a, p{
   margin: auto;
 }
 
+.three-col vl{
+  border-left:1px solid black;
+}
+
 
 .text{
   padding:6rem 3rem;
@@ -450,5 +454,9 @@ a, p{
 @media(max-width:726px){
   .quote-img-right{
     padding:2rem;
+  }
+
+  .three-col vl{
+    display: none;
   }
 }
