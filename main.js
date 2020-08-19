@@ -12,7 +12,7 @@ $(document).ready(function() {
   });
 
   $(".burger-button").click(function(){
-    $(".burger-menu").toggleClass("active");
+    $(".burger-menu").toggleClass("activate");
   });
 
 //
