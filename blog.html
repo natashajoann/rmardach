@@ -11,19 +11,19 @@ title: Blog
     <div class="grid">
     {% for post in site.posts limit:1 %}
 
-    <div class="col-5_sm-12 primary-img">
+    <div class="col-4_sm-12 primary-img">
 
       <img src="{{post.featured_image}}">
 
     </div>
 
-    <div class="col-6_sm-12 primary-info">
+    <div class="col-7_sm-12 primary-info">
       <h2> {{post.title}}</h2>
       <br>
       <p>{{post.description}}</p>
       <br><br>
 
-      <a href="{{post.url}}" class="button-fill"> Leer Mas </a>
+      <a href="{{post.url}}" class="button-filled"> Leer Mas </a>
     </div>
     {% endfor %}
 
