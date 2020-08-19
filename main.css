@@ -173,6 +173,8 @@ a, p{
   background-color:#B9D5E8;
 }
 
+
+
 /* Fixed bg */
 .fixed-bg-dark{
   background-image:url("/images/dna-purple.jpg");
@@ -404,7 +406,6 @@ a, p{
 }
 
 .accordion {
-  background-color: #fff;
   cursor: pointer;
   padding: 18px 4px 0;
   width: 100%;
@@ -465,8 +466,14 @@ a, p{
   padding:6rem;
 }
 
+.service-img img{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
 .services-info{
-  padding:4rem 2rem;
+  padding:1rem 2rem 5rem;
 }
 
 .services-info h2{
@@ -692,7 +699,7 @@ white-space:nowrap;
     width: 50%;
     margin: auto;
     display: flex;
-    
+
   .primary-post{
     padding: 2rem 0;
     background-color: #b9d5e8;
