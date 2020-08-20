@@ -211,7 +211,7 @@ a, p{
   padding:10rem;
   background-attachment: fixed;
   z-index:-1;
-  min-height: 50vh;
+  min-height: 55vh;
   max-height: 400px;
 }
 
@@ -228,9 +228,8 @@ a, p{
   display: flex;
 }
 
-.bk-overlay h2{
+.bk-overlay h1{
   margin:auto;
-  font-size:30px;
 }
 
 .about{
@@ -407,6 +406,7 @@ a, p{
 
 .accordion {
   cursor: pointer;
+  background-color:white;
   padding: 18px 4px 0;
   width: 100%;
   border: none;
