@@ -431,6 +431,10 @@ a, p{
   margin-bottom: 10px;
 }
 
+.services-accordion h2{
+  font-size:12px;
+}
+
 
 
 .active, .accordion:hover {
