@@ -297,28 +297,21 @@ a, p{
   padding: 4rem 0;
 }
 
-.primary-post{
-  background:linear-gradient(white 5%,#b9d5e8 0,#b9d5e8 60%,#b9d5e8 93%,#fff 5%);
-  margin-bottom:-2px;
-}
 
 .primary-info{
-  margin: auto;
-    margin-left: 0;
-    margin-right: 0;
-  padding-right:10%;
+  background-color: #b9d5e8;
+  padding: 5rem 5rem 5rem 2rem;
+  margin: 2rem 0;
+  margin-left:-30rem;
+  z-index:1;
+
 }
 
 .primary-img{
   margin:auto;
+  padding:6rem;
 }
 
-.primary-img img{
-  width: 100%;
-  margin: auto;
-  display: flex;
-  /* min-height:40vh; */
-}
 
 .allposts{
   padding:3rem;

@@ -11,10 +11,7 @@ title: Blog
     <div class="grid">
     {% for post in site.posts limit:1 %}
 
-    <div class="col-4_sm-12 primary-img">
-
-      <img src="{{post.featured_image}}">
-
+    <div class="col-4_sm-12 primary-img" style="background-image:url({{post.featured_image}})">
     </div>
 
     <div class="col-7_sm-12 primary-info">
