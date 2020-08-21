@@ -521,6 +521,9 @@ a, p{
 
 /* Blog Page */
 
+.blog-post{
+  padding:3rem;
+}
 
 /* Footer */
 
