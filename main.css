@@ -551,6 +551,10 @@ a, p{
   padding:4rem;
 }
 
+.cta h3{
+  padding-bottom:15px;
+}
+
 .contact-form{
   background-color:#E7EBEF;
   padding:2rem 4rem;
@@ -826,4 +830,12 @@ white-space:nowrap;
     padding-top: 26px;
     padding-right:0;
   }
+
+  .contact {
+    padding: 4rem 0 0;
+}
+
+.contact-form{
+  padding: 2rem 0rem;
+}
 }
