@@ -720,6 +720,23 @@ white-space:nowrap;
 
 @media (max-width: 768px){
 
+  .quote-img-left, .quote-img-right {
+    padding: 8.5rem 0 3rem;
+}
+
+.title-quote h1 {
+    text-align: right;
+    position: relative;
+    font-size: 48px;
+    padding: 1rem 1rem;
+    padding-right: 2rem;
+}
+
+.title-img {
+  display:none;
+}
+
+
   .primary-img img {
     width: 50%;
     margin: auto;
@@ -744,9 +761,6 @@ white-space:nowrap;
   }
 
 
-}
-
-@media(max-width:726px){
   .quote-img-right{
     padding:2rem;
   }
