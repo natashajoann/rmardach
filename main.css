@@ -709,7 +709,7 @@ font-size: 20px;
 font-weight: 300;
 color: #7a7876;
 display:block;
-padding:1rem 2rem;
+padding:1rem 0;
 text-align: center;
 white-space:nowrap;
 }
@@ -736,12 +736,20 @@ white-space:nowrap;
     padding-right: 2rem;
 }
 
-.title-img {
+.title-img-wrapper {
   display:none;
 }
 
 .banner{
   min-height: 106vh;
+}
+
+.three-col{
+  padding: 3rem 1rem;
+}
+
+.quote-img-left{
+  6.5rem 0.5rem 0rem;
 }
 
 .bk-overlay h1 {
