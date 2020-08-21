@@ -522,7 +522,17 @@ a, p{
 /* Blog Page */
 
 .blog-post{
-  padding:3rem;
+  padding: 3rem;
+    width: 80%;
+    margin: auto;
+}
+
+.article-text h2{
+  padding: 2rem 0;
+}
+
+.blog-post a:hover{
+  color: #DAE1E7;
 }
 
 /* Footer */
@@ -864,5 +874,10 @@ white-space:nowrap;
 
 .contact-form{
   padding: 2rem 0rem;
+}
+
+.blog-post{
+  width:100%;
+  padding:2rem;
 }
 }
