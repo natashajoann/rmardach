@@ -779,6 +779,12 @@ white-space:nowrap;
     background-color: #b9d5e8;
   }
 
+  .primary-info{
+    margin-left:0;
+  }
+
+
+
   .primary-info p{
     width:70%;
     margin:auto;
