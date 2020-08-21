@@ -760,9 +760,10 @@ white-space:nowrap;
 
 
   .primary-img img {
-    width: 50%;
+    width: 90%;
     margin: auto;
     display: flex;
+}
 
   .primary-post{
     padding: 2rem 0;
@@ -807,5 +808,22 @@ white-space:nowrap;
 
   .panel{
     padding: 0;
+  }
+
+  .float-left img {
+    float: none;
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+
+  .bio {
+    padding: 4rem 2rem;
+    overflow: hidden;
+  }
+
+  .primary-info{
+    text-align: center;
+    padding-top: 26px;
+    padding-right:0;
   }
 }
