@@ -143,6 +143,10 @@ a, p{
   display:flex;
 }
 
+.main-nav a:hover{
+  color:#DAE1E7;
+}
+
 /* Title */
 
 .title{
