@@ -754,4 +754,19 @@ white-space:nowrap;
   .vl{
     display: none;
   }
+
+  .services-accordion{
+    padding:2rem 2rem 2rem;
+  }
+
+  .services-pg {
+    padding: 1rem 1rem;}
+
+    .service-intro {
+      padding: 3rem 1rem;
+  }
+
+  .panel{
+    padding: 0;
+  }
 }
