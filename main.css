@@ -464,19 +464,22 @@ a, p{
   padding:1rem 3rem;
 }
 
+.service-intro{
+  padding:3rem;
+}
 
 
 .services-info{
-  padding:1rem 2rem 5rem;
+  padding:1rem 0 5rem;
 }
 
-.service-info-right{
+.services-info-right{
   text-align: right;
   padding:4rem;
   background-color:#E6DBEB;
 }
 
-.service-info-left{
+.services-info-left{
   text-align:left;
   padding: 4rem;
   background-color:#E7E9F4;
