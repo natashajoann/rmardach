@@ -736,6 +736,28 @@ white-space:nowrap;
   display:none;
 }
 
+.banner{
+  min-height: 106vh;
+}
+
+.bk-overlay h1 {
+    margin: auto;
+    width: 90%;
+    font-size: 22px;
+}
+
+.text {
+    padding: 3rem 2rem;
+}
+
+.text p{
+  width:100%;
+}
+
+.recent-posts{
+  padding:3rem 0;
+}
+
 
   .primary-img img {
     width: 50%;
@@ -766,7 +788,10 @@ white-space:nowrap;
   }
 
   .vl{
-    display: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
   }
 
   .services-accordion{
