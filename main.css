@@ -404,9 +404,16 @@ a, p{
 /* Accordion */
 
 .accordion-button h1{
-  border-bottom: 3px solid black;
-    padding-top: 14px;
-    text-align: center;
+  padding-top: 14px;
+  text-align: center;
+}
+
+.accordion-button h1:hover{
+  color: #DAC8E2;
+}
+
+.services-accordion{
+  padding:2rem 0rem 2rem 2rem;
 }
 
 .accordion {
@@ -419,24 +426,18 @@ a, p{
   outline: 0;
   font-size: 15px;
   transition: .5s;
-  border-bottom: 3px solid black;
   margin: auto;
-  text-align: center;
+  text-align: right;
   margin-bottom: 10px;
 }
 
-.accordion h2{
-  padding-bottom:10px;
-}
 
 
 .active, .accordion:hover {
   color: #DAC8E2;
-  border-bottom: 3px solid #DAC8E2;
 }
 
 .accordion:after {
-  content: '\002B';
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -444,7 +445,6 @@ a, p{
 }
 
 .active:after {
-  content: "\2212";
   color: #DAC8E2;
 }
 
@@ -455,7 +455,7 @@ a, p{
   overflow: hidden;
   transition: max-height 0.9s ease-out;
   margin:auto;
-  margin-bottom:6px !important;
+  margin-bottom:30px !important;
 }
 
 /* services */
