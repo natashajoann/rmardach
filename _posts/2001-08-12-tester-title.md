@@ -5,6 +5,7 @@ description: >-
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua.
 featured_image: /uploads/maryna-yazbeck-1389581-unsplash.jpg
+body_image: /images/lightdna.jpg
 author: Rebecca Mardach
 date: 2001-08-12 14:00:00
 ---
