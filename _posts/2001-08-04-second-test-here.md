@@ -7,8 +7,9 @@ description: >-
   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
   consequat.
 featured_image: /uploads/bb185d0a7d0cdd4eaa1b2bee1f5b6afb.jpg
-first_image: /images/lightdna.jpg
-second_image: /images/lightdna.jpg
+first_image:
+second_image:
 author: Rebecca Mardach
 date: 2001-08-04 00:00:00
 ---
+
