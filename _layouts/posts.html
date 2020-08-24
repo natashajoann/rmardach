@@ -12,7 +12,16 @@ title: Blog Posts
   <div class="article-text">
     <h2 class="article-title centered"> {{page.title}} </h2>
 
+    {% if page.first-image == true %}
+    <img src="{{page.first-image}}" class="float-left">
+    {% endif %}
+
   {{content}}
+
+  {% if page.second-image == true %}
+  <img src="{{page.second-image}}" class="float-right">
+  {% endif %}
+
 
   </div>
 
