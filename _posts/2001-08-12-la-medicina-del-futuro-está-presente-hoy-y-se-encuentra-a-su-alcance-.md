@@ -23,6 +23,4 @@ Estos servicios son para personas de cualquier edad y requieren que un medico ha
 
 &nbsp;
 
-**interconsultas genéticas y metab&oacute;licas** para colegas médicos no genetistas que desean opini&oacute;n experta acerca de un paciente o familia con una posible enfermedad heredada.&nbsp; Médicos pueden remitir pacientes que necesitan asesor&iacute;a genética acerca de predisposici&oacute;n al c&aacute;ncer hereditario, parejas requiriendo asesor&iacute;a reproductiva y transmisi&oacute;n de enfermedades genéticas,&nbsp; o evaluaci&oacute;n para ordenar pruebas genéticas de diagnostico.
-
-<div id="gtx-trans" style="position: absolute; left: 723px; top: 138px;"><div class="gtx-trans-icon">&nbsp;</div></div>
+**Interconsultas genéticas y metab&oacute;licas** para colegas médicos no genetistas que desean opini&oacute;n experta acerca de un paciente o familia con una posible enfermedad heredada.&nbsp; Médicos pueden remitir pacientes que necesitan asesor&iacute;a genética acerca de predisposici&oacute;n al c&aacute;ncer hereditario, parejas requiriendo asesor&iacute;a reproductiva y transmisi&oacute;n de enfermedades genéticas,&nbsp; o evaluaci&oacute;n para ordenar pruebas genéticas de diagnostico.
