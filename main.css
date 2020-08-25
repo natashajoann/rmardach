@@ -855,7 +855,7 @@ white-space:nowrap;
     padding: 0;
   }
 
-  .main-float-left img {
+  .main-float-left img, .main-float-left {
     float: none;
     max-width: 100%;
     margin: 1rem 0;
