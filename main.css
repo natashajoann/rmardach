@@ -142,6 +142,9 @@ font-size:18px;
 .main-nav{
   padding:20px 2rem;
   display:flex;
+    position: absolute;
+    width: 100%;
+    top: 0;
 }
 
 .main-nav a:hover{
