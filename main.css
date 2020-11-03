@@ -366,6 +366,8 @@ a, p{
 
 .three-col-img{
   padding:6rem;
+  background-position:center;
+  background-size:cover;
 }
 
 .two-col h1{
