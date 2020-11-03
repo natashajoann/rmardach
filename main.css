@@ -465,6 +465,7 @@ height: 65vh;
 
 .services-accordion h2:hover{
     border-bottom: 2px solid #C5E0F0;
+    color: #C5E0F0 !important;
 }
 
 
