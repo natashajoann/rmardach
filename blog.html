@@ -30,7 +30,7 @@ title: Blog
 <div class="col-12">
 <div class="allposts grid">
 
-{% for post in site.posts %}
+{% for post in site.posts offset: 1 %}
 
 <div class="col-4_sm-12 post-preview">
   <div class="blog-loop-background index-blog-img" style="background-image:url({{post.featured_image}})">
