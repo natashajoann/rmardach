@@ -87,6 +87,7 @@ _array_structures:
       icon: perm_media
       value:
         _id: quote-img-right
+        block-class:
         featured_image:
         background_image:
         heading_html:
@@ -94,9 +95,10 @@ _array_structures:
       icon: perm_media
       value:
         _id: quote-img-left
+        block-class: 
         featured_image:
         background_image:
-        heading: 
+        heading:
     - label: Recent Blog Posts
       icon: ballot
       value:
