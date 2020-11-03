@@ -429,6 +429,7 @@ height: 65vh;
   padding:2rem 0rem 2rem 2rem;
 }
 
+
 .accordion {
   cursor: pointer;
   background-color:white;
@@ -503,10 +504,13 @@ height: 65vh;
 }
 
 .ser-img1{
-  background-image: url("/images/maryna-yazbeck-1389581-unsplash.jpg");
+  /* background-image: url("/images/maryna-yazbeck-1389581-unsplash.jpg"); */
   background-position: center;
   background-size:cover;
   padding:6rem;
+  width:80%;
+  margin:auto;
+  min-height:600px;
 }
 
 .ser-img2{
