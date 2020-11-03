@@ -352,10 +352,12 @@ font-size:18px;
 }
 
 .quote-img-right, .quote-img-left{
-  padding: 9.5rem 0 6rem;
   background-size: cover;
   background-position: center;
+}
 
+.quote-img-Left{
+  padding:15.5rem 0 3rem;
 }
 
 .quote-img-left h1{
@@ -378,7 +380,7 @@ font-size:18px;
 }
 
 .three-col-img{
-  padding:6rem;
+  min-height:300px;
   background-position:center;
   background-size:cover;
 }
