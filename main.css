@@ -331,6 +331,9 @@ font-size:18px;
   padding:3rem;
 }
 
+.newsletter-signup{
+  padding:4rem;
+}
 
 
 .fixed-bg{
@@ -549,16 +552,19 @@ font-size:18px;
 
 /* Footer */
 
-.footer-info{
-  padding:5rem 0;
+.footer{
+  padding:5rem 3rem;
   background-color:#526FAA;
 }
 
-.footer-img{
-  background-image: url("/images/dna-purple.jpg");
-  background-position:center;
-  background-size:cover;
-  padding:6rem;
+.footer-menu{
+  padding:0 3rem;
+}
+
+.vl{
+  border-top:2px solid black;
+  width:80%;
+  margin:auto;
 }
 
 /* Contact --footer */
