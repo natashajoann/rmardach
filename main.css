@@ -457,7 +457,14 @@ height: 65vh;
 }
 
 .services-accordion h2{
-  font-size:12px;
+  font-size: 30px;
+    text-align: left;
+    border-bottom: 2px solid black;
+    transition: 0.5s;
+}
+
+.services-accordion h2:hover{
+    border-bottom: 2px solid #C5E0F0;
 }
 
 
@@ -490,7 +497,7 @@ height: 65vh;
 /* services */
 
 .services-pg{
-  padding:1rem 3rem;
+  padding:5rem 3rem;
 }
 
 .service-intro{
@@ -520,6 +527,7 @@ height: 65vh;
   background-size:cover;
   width:80%;
   min-height:600px;
+  text-align:center;
 }
 
 .ser-img1 img{
