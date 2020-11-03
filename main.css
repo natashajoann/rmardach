@@ -134,6 +134,7 @@ font-size:18px;
 .title-quote{
   position:relative;
   padding:4rem;
+  margin:auto;
 }
 
 .title-quote h1{
@@ -150,6 +151,10 @@ font-size:18px;
   background-size:cover;
   height:50vh;
   width:80%;
+  margin:auto;
+}
+
+.title-img-wrapper{
   margin:auto;
 }
 
@@ -340,13 +345,13 @@ font-size:18px;
 
 
 .quote-img{
-  background-position:center;
-  background-size:cover;
-  margin-top: 0;
-  padding: 9rem;
-  width: 77%;
-  margin: auto;
-  height: 50vh;
+  background-position: center;
+background-size: cover;
+margin-top: 0;
+padding: 9rem;
+width: 92%;
+margin: auto;
+height: 65vh;
 }
 
 .two-col, .three-col{
