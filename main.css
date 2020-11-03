@@ -414,7 +414,7 @@ height: 65vh;
   overflow:hidden;
 }
 
-.main-float-left{
+.main-float-left img{
   width: 50%;
   float: left;
   margin: 0px 20px 20px 0px;
