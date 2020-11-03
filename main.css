@@ -240,13 +240,13 @@ font-size:18px;
 }
 
 .blog-loop-background{
-  width:80%;
+  width:90%;
   margin:auto;
   margin-bottom:10px;
   padding:6rem;
   background-position: center;
   background-size: cover;
-  min-height: 40vh;
+  min-height: 50vh;
 }
 
 .recent-posts h1{
