@@ -515,13 +515,15 @@ height: 65vh;
 }
 
 .ser-img1{
-  /* background-image: url("/images/maryna-yazbeck-1389581-unsplash.jpg"); */
+
   background-position: center;
   background-size:cover;
-  padding:6rem;
   width:80%;
-  margin:auto;
   min-height:600px;
+}
+
+.ser-img1 img{
+  width:80%;
 }
 
 .ser-img2{
