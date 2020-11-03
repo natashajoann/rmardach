@@ -535,7 +535,7 @@ height: 65vh;
   background-position: center;
   background-size:cover;
   width:80%;
-  min-height:600px;
+  /* min-height:600px; */
   text-align:center;
 }
 
@@ -806,7 +806,15 @@ white-space:nowrap;
 @media (max-width: 768px){
 
   .quote-img-left, .quote-img-right {
-    padding: 8.5rem 0 3rem;
+    padding: 0rem 0 3rem;
+}
+
+.quote-img-right{
+  background: linear-gradient(0deg, rgba(255,255,255,1) 6%, #c5e0f0 5%, #c5e0f0 88%, rgba(255,255,255,1) 74%);
+}
+
+.height100{
+  height:84vh;
 }
 
 .mobile-title{
@@ -823,6 +831,13 @@ white-space:nowrap;
 
 .title-img-wrapper {
   display:none;
+}
+
+.title-quote {
+    position: relative;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
 }
 
 .banner{
@@ -849,6 +864,14 @@ white-space:nowrap;
 
 .text p{
   width:100%;
+}
+
+.sign-up{
+  height: 59vh;
+}
+
+.signup-text h1{
+  text-align: center;
 }
 
 .recent-posts{
@@ -893,13 +916,6 @@ white-space:nowrap;
     padding:2rem;
   }
 
-  .vl{
-    border-right: none;
-    border-bottom: 1px solid black;
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
-  }
-
   .services-accordion{
     padding:2rem 2rem 2rem;
   }
@@ -918,8 +934,8 @@ white-space:nowrap;
   .main-float-left img{
     width: 100%;
     float: none;
-    margin: 20px;
   }
+
 
   .bio {
     padding:2rem;
@@ -937,6 +953,7 @@ white-space:nowrap;
 
   .contact {
     padding: 4rem 0 0;
+    height:63vh;
 }
 
 .contact-form{
@@ -948,7 +965,19 @@ white-space:nowrap;
   padding:2rem;
 }
 
+.primary-info{
+  background-color:transparent;
+}
+
 .mobile-display{
   display:none;
+}
+
+.footer-menu{
+  padding: 0 0 2rem;
+}
+
+.vl{
+  padding-top:2rem;
 }
 }
