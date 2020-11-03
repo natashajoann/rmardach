@@ -88,12 +88,14 @@ _array_structures:
       value:
         _id: quote-img-right
         background_image:
-        heading:
+        featured_image:
+        heading_html:
     - label: Quote With Image (Left)
       icon: perm_media
       value:
         _id: quote-img-left
         background_image:
+        featured_image:
         heading:
     - label: Recent Blog Posts
       icon: ballot
@@ -102,16 +104,26 @@ _array_structures:
         heading:
         link_url:
         link-text:
+    -label: Sign Up Box
+      icon: vertical_split
+      value:
+        _id: sign-up
+        background_image:
+        heading_html:
+        embed-code_html:
+          embed: true
     - label: Two Columns
       icon: vertical_split
       value:
         _id: two-col
         block-class:
         background-color:
+        first-featured_image:
         heading:
         description_html:
         link_url:
         link-text:
+        second-featured_image:
         second-heading:
         second-description_html:
         second-link_url:
@@ -122,14 +134,17 @@ _array_structures:
         _id: three-col
         block-class:
         background-color:
+        first-featured_image:
         heading:
         description_html:
         link_url:
         link-text:
+        second-featured_image:
         second-heading:
         second-description_html:
         second-link_url:
         second-link-text:
+        third-featured_image:
         third-heading:
         third-description_html:
         third-link_url:
