@@ -335,6 +335,14 @@ font-size:18px;
   padding:4rem;
 }
 
+.signup-text{
+  line-height: 61px;
+}
+
+.sign-up{
+  padding: 5rem 0;
+}
+
 
 .fixed-bg{
   background-attachment:fixed;
