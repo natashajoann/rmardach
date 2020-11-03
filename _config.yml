@@ -94,8 +94,8 @@ _array_structures:
       icon: perm_media
       value:
         _id: quote-img-left
+        featured_image: 
         background_image:
-        featured_image:
         heading:
     - label: Recent Blog Posts
       icon: ballot
