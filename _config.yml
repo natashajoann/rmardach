@@ -111,7 +111,6 @@ _array_structures:
         background_image:
         heading_html:
         embed-code_html:
-          embed: true
     - label: Two Columns
       icon: vertical_split
       value:
