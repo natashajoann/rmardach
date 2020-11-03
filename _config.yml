@@ -96,7 +96,7 @@ _array_structures:
         _id: quote-img-left
         featured_image:
         background_image:
-        heading_html:
+        heading_html: 
     - label: Recent Blog Posts
       icon: ballot
       value:
