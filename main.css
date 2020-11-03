@@ -338,6 +338,9 @@ a, p{
 
 .quote-img-right, .quote-img-left{
   padding: 9.5rem 0 6rem;
+  background-size: cover;
+  background-position: center;
+  
 }
 
 .quote-img-left h1{
