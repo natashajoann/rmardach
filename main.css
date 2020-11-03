@@ -134,6 +134,10 @@ font-size:18px;
   display:none;
 }
 
+.mobile-display a{
+  padding: 0 15px;
+}
+
 .main-nav a:hover{
   color:#DAE1E7;
 }
