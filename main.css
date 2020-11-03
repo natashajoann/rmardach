@@ -130,6 +130,10 @@ font-size:18px;
     top: 0;
 }
 
+.mobile-title{
+  display:none;
+}
+
 .main-nav a:hover{
   color:#DAE1E7;
 }
@@ -801,6 +805,10 @@ white-space:nowrap;
     padding: 8.5rem 0 3rem;
 }
 
+.mobile-title{
+  display:block;
+}
+
 .title-quote h1 {
     text-align: right;
     position: relative;
@@ -934,5 +942,9 @@ white-space:nowrap;
 .blog-post{
   width:100%;
   padding:2rem;
+}
+
+.mobile-display{
+  display:none;
 }
 }
