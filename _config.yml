@@ -88,6 +88,7 @@ _array_structures:
       value:
         _id: quote-img-right
         block-class:
+        background_color: 
         featured_image:
         background_image:
         heading_html:
@@ -95,7 +96,7 @@ _array_structures:
       icon: perm_media
       value:
         _id: quote-img-left
-        block-class: 
+        block-class:
         featured_image:
         background_image:
         heading:
