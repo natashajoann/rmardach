@@ -281,7 +281,7 @@ font-size:18px;
 /* Blocks */
 
 .blog{
-  padding: 4rem 0;
+  padding: 6rem 0;
 }
 
 
@@ -290,7 +290,7 @@ font-size:18px;
 }
 
   .primary-info {
-    background-color: #b9d5e8;
+    background-color: #C5E0F0;
     padding: 5rem 5rem 5rem 2rem;
     margin: 2rem 0;
     margin-left: -6rem;
@@ -598,6 +598,8 @@ footer{
 
 .contact{
   padding:4rem;
+  background-image: url("/images/mombkgroundlight.png");
+  
 }
 
 .cta h3{
@@ -607,6 +609,7 @@ footer{
 .contact-form{
   padding:2rem 4rem;
   text-align:center;
+  color:white;
 }
 
 .contact-form input{
