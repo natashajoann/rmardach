@@ -410,8 +410,14 @@ height: 65vh;
 /* About page */
 
 .bio{
-  padding:4rem;
+  padding:8rem 4rem 4rem;
   overflow:hidden;
+}
+
+.main-float-left{
+  width: 50%;
+  float: left;
+  margin: 0px 20px 20px 0px;
 }
 
 /* Accordion */
@@ -872,14 +878,14 @@ white-space:nowrap;
     padding: 0;
   }
 
-  .main-float-left img, .main-float-left {
+  .main-float-left img{
+    width: 100%;
     float: none;
-    max-width: 100%;
-    margin: 1rem 0;
+    margin: 20px;
   }
 
   .bio {
-    padding: 4rem 2rem;
+    padding:2rem;
     overflow: hidden;
   }
 
