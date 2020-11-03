@@ -155,6 +155,7 @@ a, p{
 
 .title-quote{
   position:relative;
+  padding:4rem;
 }
 
 .title-quote h1{
@@ -340,7 +341,7 @@ a, p{
   padding: 9.5rem 0 6rem;
   background-size: cover;
   background-position: center;
-  
+
 }
 
 .quote-img-left h1{
@@ -361,6 +362,10 @@ a, p{
 .two-col, .three-col{
   padding:5rem 2rem;
   background-color: #B9D5E8;
+}
+
+.three-col-img{
+  padding:6rem;
 }
 
 .two-col h1{
