@@ -597,9 +597,12 @@ footer{
 /* Contact Page */
 
 .contact{
-  padding:4rem;
-  background-image: url("/images/mombkgroundlight.png");
-  
+  padding:8rem 4rem;
+  background-image: url(/images/mombkgroundlight.png);
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+
 }
 
 .cta h3{
@@ -607,9 +610,11 @@ footer{
 }
 
 .contact-form{
-  padding:2rem 4rem;
-  text-align:center;
-  color:white;
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #ffffffbf;
+  width: 80%;
+  margin: auto;
 }
 
 .contact-form input{
@@ -621,6 +626,7 @@ footer{
   font-weight:100;
   font-size: 15px;
   border:none;
+  background-color:white;
 }
 
 .contact-form textarea{
