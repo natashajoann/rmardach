@@ -49,6 +49,10 @@ font-size:18px;
 
 /* helper classes */
 
+.height100{
+  height:100vh;
+}
+
 .centered{
   text-align:center;
 }
@@ -319,9 +323,13 @@ font-size:18px;
 }
 
 .sign-up{
-  padding: 5rem 0;
-  background-position:center;
-  background-size:cover;
+  padding: 0rem 0;
+background-position: center;
+background-size: cover;
+height: 86vh;
+margin: auto;
+display: flex;
+align-items: center;
 }
 
 
@@ -548,13 +556,17 @@ footer{
   background-color:#526FAA;
 }
 
+.footer-text{
+  padding-bottom:3rem;
+}
+
 .footer-menu{
-  padding:0 3rem;
+  padding:3rem;
 }
 
 .vl{
   border-top:2px solid black;
-  width:80%;
+  width:100%;
   margin:auto;
 }
 
