@@ -95,8 +95,6 @@ font-size:18px;
 .button-filled{
   padding: 8px 15px;
   width: 40%;
-  background-color: #8eaec4;
-  border-radius: 5px;
   transition: .4s;
   text-transform: uppercase;
   font-weight: bold;
@@ -104,31 +102,7 @@ font-size:18px;
 }
 
 .button-filled:hover{
-  background-color:#D3E7F5;
-}
-
-.button-filled-secondary{
-  padding:8px 15px;
-  width:40%;
-  background-color:#F4F0F5;
-  border-radius:5px;
-  transition:0.4s;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 12px;
-}
-
-.button-filled-secondary:hover{
-  background-color:#E9DEEB;
-  color:white;
-}
-
-.button-expand{
-  transition:0.5s;
-}
-
-.button-expand:hover{
-  letter-spacing: 5px;
+  letter-spacing:1px;
 }
 
 .burger-menu{
