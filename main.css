@@ -331,9 +331,6 @@ font-size:18px;
   padding:3rem;
 }
 
-.newsletter-signup{
-  padding:4rem;
-}
 
 .signup-text{
   line-height: 61px;
@@ -562,7 +559,7 @@ font-size:18px;
 
 /* Footer */
 
-.footer{
+footer{
   padding:5rem 3rem;
   background-color:#526FAA;
 }
