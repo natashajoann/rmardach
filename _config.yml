@@ -104,7 +104,7 @@ _array_structures:
         heading:
         link_url:
         link-text:
-    -label: Sign Up Box
+    - label: Sign Up Box
       icon: vertical_split
       value:
         _id: sign-up
