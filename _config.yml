@@ -87,14 +87,14 @@ _array_structures:
       icon: perm_media
       value:
         _id: quote-img-right
-        background_image:
         featured_image:
+        background_image:
         heading_html:
     - label: Quote With Image (Left)
       icon: perm_media
       value:
         _id: quote-img-left
-        featured_image: 
+        featured_image:
         background_image:
         heading:
     - label: Recent Blog Posts
