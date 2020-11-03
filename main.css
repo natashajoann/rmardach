@@ -361,7 +361,6 @@ a, p{
 
 .two-col, .three-col{
   padding:5rem 2rem;
-  background-color: #B9D5E8;
 }
 
 .three-col-img{
@@ -388,9 +387,6 @@ a, p{
   margin: auto;
 }
 
-.vl{
-  border-right:1px solid black;
-}
 
 
 .text{
