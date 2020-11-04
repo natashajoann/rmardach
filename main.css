@@ -640,7 +640,7 @@ footer{
 .contact-form{
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #ffffffbf;
+  background-color: white;
   width: 80%;
   margin: auto;
 }
@@ -654,7 +654,7 @@ footer{
   font-weight:100;
   font-size: 15px;
   border:none;
-  background-color:white;
+  background-color:#c6ccf6;
 }
 
 .contact-form textarea{
@@ -666,12 +666,12 @@ footer{
   font-weight:100;
   font-size: 15px;
   border:none;
+  background-color:#c6ccf6;
 }
 
 .contact-button{
   width:60%;
   margin:auto;
-  background-color:#FFFFFF;
   border:none;
   transition: 0.3s;
   font-family: museo-sans, sans-serif;
