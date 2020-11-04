@@ -781,7 +781,7 @@ transform: rotateZ(-45deg);
 }
 
 .burger-menu.activate{
-  right:0 !important;
+  right:0;
 }
 
 .burger-menu a {
@@ -822,15 +822,15 @@ white-space:nowrap;
 }
 
 .title-quote h1 {
-    text-align: right;
+    text-align: center;
     position: relative;
     font-size: 48px;
     padding: 1rem 1rem;
     padding-right: 2rem;
 }
 
-.title-img-wrapper {
-  display:none;
+.quote-img{
+height:35vh;
 }
 
 .title-quote {
