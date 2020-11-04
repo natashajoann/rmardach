@@ -130,6 +130,10 @@ font-size:18px;
     top: 0;
 }
 
+.mobile-logo{
+  display:none;
+}
+
 .mobile-title{
   display:none;
 }
@@ -684,6 +688,13 @@ footer{
 
   .main-nav{
     display:none;
+  }
+
+  .mobile-logo{
+    display:block;
+    position:absolute;
+    top:2vh;
+    left:2vh;
   }
 
   .mobil-menu{
