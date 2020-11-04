@@ -34,7 +34,7 @@
       <a href="/"><h1> LOGO </h1></a>
   </div>
 
-  <div class="col-9_sm-12 mobile-display space-around" style="padding-top:2rem;">
+  <div class="col-9_sm-12 mobile-display" style="padding-top:2rem; text-align:right;">
  <a href="/services">Servicios</a>
   <a href="/about">Bio</a>
 
@@ -46,23 +46,41 @@
 
 <!-- burger menu -->
 
-<div class="mobile-title">
-  <a href="/" class="col-4 nav-title"><h1>LOGO</h1></a>
-</div>
-<nav class="mobil-menu">
-    <div class="burger-button">
-        <span class="burger-top"></span>
-        <span class="burger-middle"></span>
-        <span class="burger-bottom"></span>
-    </div>
-    <div class="burger-menu">
-      <a href="/">Inicio</a>
-      <a href="/services">Servicios</a>
-      <a href="/about">Bio</a>
-      <a href="/blog">Blog</a>
-      <a href="/contact">Contacto</a>
-    </div>
-</nav>
+<section class="header">
+    <div class="wrapper">
+      <nav class="nav">
+        <div class="nav__container">
+          <ul class="mobile-menu burger-menu">
+            <li class="menu-item">      <a href="/">Inicio</a></li>
+
+            <li class="menu-item">      <a href="/services">Servicios Me</a></li>
+
+            <li class="menu-item">
+            <a href="/about">Bio</a>
+          </li>
+
+          <li class="menu-item">
+            <a href="/blog">Blog</a>
+          </li>
+
+        <li class="menu-item">
+          <a href="/contact">Contacto</a>
+        </li>
+
+        </div>
+
+    </nav>
+
+    <button class="hamburger__container mobile">
+      <div class="hamburger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+    </button>
+  </div>
+
+  </section>
 
 
 
