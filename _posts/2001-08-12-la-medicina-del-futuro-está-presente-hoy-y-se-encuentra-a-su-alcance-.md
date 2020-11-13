@@ -13,7 +13,7 @@ date: 2001-08-12 00:00:00
 
 **La Medicina del futuro est&aacute; presente hoy y se encuentra a su alcance.&nbsp;** Es dif&iacute;cil entender la dimensi&oacute;n de la Medicina Personalizada en los humanos debido a la gran cantidad de informaci&oacute;n disponible hoy en d&iacute;a, pero sin duda, los genes tienen una influencia definitiva en su vida y en la de sus seres queridos. &nbsp;
 
-Como genetista cl&iacute;nica he dedicado mi carrera a ayudar a las personas a entender el significado de las diferencias que llevamos en nuestro genoma individual y a usar esta informaci&oacute;n al tomar decisiones importantes en la vida como cuando escogemos una opci&oacute;n para tratamiento de una enfermedad o cuando empezamos una familia.&nbsp; No solo los cambios en nuestros genes definen nuestro riesgo para ciertas condiciones o enfermedades, sino también estos son importantes con respecto a su transmisi&oacute;n a nuestros hijos.&nbsp;
+Como genetista cl&iacute;nica he dedicado mi carrera a ayudar a las personas a entender el significado de las diferencias que llevamos en nuestro genoma individual y a usar esta informaci&oacute;n al tomar decisiones importantes en la vida como cuando escogemos una opci&oacute;n para tratamiento de una enfermedad o cuando empezamos una familia.&nbsp; No solo los cambios en nuestros genes definen nuestro riesgo para ciertas condiciones o enfermedades, sino también estos son importantes con respecto a su transmisi&oacute;n a nuestros hijos.&nbsp;&nbsp;
 
 &nbsp;
 
